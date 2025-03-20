@@ -1,6 +1,8 @@
 package cm
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestOption(t *testing.T) {
 	o1 := None[string]()
